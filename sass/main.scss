@@ -1,0 +1,22 @@
+#main-wrapper, #footer{
+  width: 810px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 400px;
+}
+
+#header {
+  background-image: url(../images/header.png);
+  height: 200px;
+}
+
+#main {
+  background-image: url(../images/sheet.jpg);
+  width: 797px;
+  margin-left: 5px;
+  padding-bottom: 20px;
+}
+
+.custom-row {
+  margin-bottom: 20px;
+}

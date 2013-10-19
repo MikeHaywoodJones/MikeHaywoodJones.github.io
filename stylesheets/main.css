@@ -1,0 +1,26 @@
+/* line 1, ../sass/main.scss */
+#main-wrapper, #footer {
+  width: 810px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 400px;
+}
+
+/* line 8, ../sass/main.scss */
+#header {
+  background-image: url(../images/header.png);
+  height: 200px;
+}
+
+/* line 13, ../sass/main.scss */
+#main {
+  background-image: url(../images/sheet.jpg);
+  width: 797px;
+  margin-left: 5px;
+  padding-bottom: 20px;
+}
+
+/* line 20, ../sass/main.scss */
+.custom-row {
+  margin-bottom: 20px;
+}
