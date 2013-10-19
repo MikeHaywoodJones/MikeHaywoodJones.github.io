@@ -11,8 +11,33 @@
   background-image: url(../images/header.png);
   height: 200px;
 }
+/* line 12, ../sass/main.scss */
+#header #navi {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  padding-top: 60px;
+}
+/* line 16, ../sass/main.scss */
+#header #navi .home {
+  font-size: 38px;
+  text-align: center;
+}
+/* line 20, ../sass/main.scss */
+#header #navi .links {
+  font-size: 27px;
+}
+/* line 24, ../sass/main.scss */
+#header #navi a {
+  text-decoration: none;
+  color: transparent;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
+}
+/* line 29, ../sass/main.scss */
+#header #navi a.current {
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+}
 
-/* line 13, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 #main {
   background-image: url(../images/sheet.jpg);
   width: 797px;
@@ -20,7 +45,12 @@
   padding-bottom: 20px;
 }
 
-/* line 20, ../sass/main.scss */
+/* line 44, ../sass/main.scss */
 .custom-row {
   margin-bottom: 20px;
+}
+
+/* line 48, ../sass/main.scss */
+ul.nav {
+  line-height: 1.3;
 }
