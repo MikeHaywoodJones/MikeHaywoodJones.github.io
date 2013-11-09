@@ -4,10 +4,12 @@ body {
   background-position: center top;
 }
 
-#main-wrapper, #footer{
+#main-wrapper, #footer {
   width: 810px;
   margin: 0 auto;
   position: relative;
+}
+#main-wrapper {
   margin-top: 400px;
 }
 
@@ -45,6 +47,35 @@ body {
   width: 797px;
   margin-left: 5px;
   padding-bottom: 20px;
+}
+
+#footer {
+  padding-top: 12px;
+  #impressum {
+    font-size: 35px;
+    float: left;
+    padding-left: 2px;
+    a {
+      font-family: 'Dosis', sans-serif;
+      font-weight: bold;
+      text-decoration:none;
+      color: white;
+    }
+  }
+
+  #external-links {
+    position: absolute;
+    right: 8px;
+
+    #facebook {
+      margin-left: 8px;
+      float: left;
+    }
+    #youtube {
+      margin-left: 8px;
+      float: left;
+    }
+  }
 }
 
 .custom-row {
