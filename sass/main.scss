@@ -49,6 +49,8 @@ body {
 
 .custom-row {
   margin-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 ul.nav {
@@ -63,12 +65,26 @@ ul.nav {
   }
 }
 
-li {
-  list-style: none;
-  &.author{
-    font-family: 'Dosis', sans-serif;
-    padding-top: 10px;
-    font-weight: bold;
-    font-size: 18px;
+ul {
+  padding-left: 0px;
+  li {
+    list-style: none;
+    &.author{
+      font-family: 'Dosis', sans-serif;
+      padding-top: 10px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+}
+
+.youtube-link{
+  &:link, &:visited, &:hover, &:focus, &:active {
+    color: black;
+  }
+  img {
+    height: "25";
+    width: "25";
+    margin-right: 10px;
   }
 }
