@@ -62,3 +62,13 @@ ul.nav {
     padding-bottom: 10px;
   }
 }
+
+li {
+  list-style: none;
+  &.author{
+    font-family: 'Dosis', sans-serif;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}

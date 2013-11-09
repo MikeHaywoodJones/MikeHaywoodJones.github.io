@@ -71,3 +71,15 @@ ul.nav {
 .sorry p {
   padding-bottom: 10px;
 }
+
+/* line 66, ../sass/main.scss */
+li {
+  list-style: none;
+}
+/* line 68, ../sass/main.scss */
+li.author {
+  font-family: 'Dosis', sans-serif;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
